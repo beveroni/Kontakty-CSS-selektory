@@ -1,0 +1,51 @@
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #cfe1e7;
+  padding: 5px;
+  font-family: monospace;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  background-color: #f3f3f3;
+  padding: 20px;
+  width: 400px;
+  display: flex;
+}
+.photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.info {
+  margin-left: 20px;
+  flex-grow: 2;
+}
+.info p {
+  font-size: 22px;
+}
+
+.buttons {
+  padding: 0 10px 0 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.call,
+.message {
+  width: 30px;
+}
+
+/* Tady napište své styly */
